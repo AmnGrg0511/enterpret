@@ -84,7 +84,9 @@ function App() {
             {isQuery ? "Build your query" : "Create tag and query"}
           </div>
           <div
-            className={`text-${isQuery ? "white" : "slate-300"} py-2 text-xs ${
+            className={`dark:text-${isQuery ? "white" : "slate-300"} text-${
+              isQuery ? "white" : "slate-300"
+            } py-2 text-xs ${
               isQuery ? "bg-blue-800 dark:bg-indigo-900 px-2 rounded" : ""
             }`}
           >
