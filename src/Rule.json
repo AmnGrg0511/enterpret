@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Theme": ["Offers", "Performance", "Platform", "Product Feedback"],
+    "Sub-theme": ["Offers", "Performance", "Platform", "Product Feedback"],
+    "Reason": ["Expensive", "Low Quality", "Not Interested"],
+    "Language": ["English", "हिन्दी", "日本"],
+    "Source": ["Google", "Facebook", "Twitter"],
+    "Rating": [1, 2, 3, 4, 5],
+    "Time Period": ["Last Week", "Last Month", "Last Year"],
+    "Customer ID": ["1fcd45", "3cce46", "a78bde"]
+  },
+  "conditions": {
+    "Equals": "==",
+    "Does not equal": "!=",
+    "Like": "~",
+    "Not like": "!~",
+    "Is Empty": "== []",
+    "Is": "===",
+    "Is not": "!=="
+  }
+}

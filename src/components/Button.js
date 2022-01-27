@@ -8,9 +8,9 @@ const classes = {
 export const Button = ({ variant, className, ...props }) => {
   return (
     <button
-      className={`${
+      className={` ${className} ${
         classes[variant ?? "primary"]
-      } text-xs py-2 px-4 rounded-md transition ${className}`}
+      } text-xs py-2 px-4 rounded-md transition`}
       {...props}
     ></button>
   );
