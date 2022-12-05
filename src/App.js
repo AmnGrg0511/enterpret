@@ -123,7 +123,7 @@ function App() {
               : "The query you build will be saved in your active view"}
           </div>
         </div>
-        <div className="p-8 flex grow items-center overflow-y-scroll h-full">
+        <div className="p-8 flex grow items-center overflow-y-auto h-full">
           <div className="w-full max-h-full">
             {query.children.length > 1 && (
               <>
