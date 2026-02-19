@@ -1,11 +1,12 @@
-## Available Scripts
+# Enterpret
 
-In the project directory, you can run:
+React web assignment with a clean layout and Tailwind styling. Built as a focused UI implementation with a minimal runtime footprint.
 
-### `npm start`
+## Highlights
+- React 17 with Create React App
+- Tailwind CSS for styling
+- Single-page layout optimized for quick review
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
+- React
+- Tailwind CSS
